@@ -10,9 +10,9 @@ interface IStoreToken {
 let step = 0;
 
 const myFinnotechServices = new Finnotech({
-	clientId: "testcoapp",
-	clientSecret: "5I9J6Dk0rCkSGhNI0Xjw",
-	nid: "0023343605",
+	clientId: "myappname",
+	clientSecret: "mysecret",
+	nid: "mynid",
 	getAccessToken: async (fullScopeName) => {
 		console.log("get token ==> ", fullScopeName);
 		const grantType = Utils.getGrantTypeFromScopeName(fullScopeName);
