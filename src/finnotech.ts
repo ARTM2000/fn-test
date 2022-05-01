@@ -93,3 +93,4 @@ const myFinnotechServices = new Finnotech({
 
 export const TokenService = myFinnotechServices.TokenService;
 export const OakService = myFinnotechServices.OakService;
+export const CreditService = myFinnotechServices.CreditService;
